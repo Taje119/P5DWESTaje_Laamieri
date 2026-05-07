@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4F7F6;
+    color: #2C3E50;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.cabecera {
+    background-color: white;
+    border-bottom: 4px solid #29B6F6;
+    padding: 20px 0;
+}
+
+.cabecera .contenedor {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo-principal {
+    width: 90px;
+    height: auto;
+}
+
+.titulo-principal {
+    margin: 0;
+    font-size: 30px;
+    color: #2C3E50;
+}
+
+.menu {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu .contenedor {
+    display: flex;
+    gap: 30px;
+    padding: 12px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #2C3E50;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.menu a:hover,
+.menu a.activo {
+    color: #0071BC;
+    border-bottom: 3px solid #0071BC;
+}
+
+main {
+    padding: 35px 0;
+}
+
+.bloque {
+    background-color: white;
+    border: 3px solid #2C3E50;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.bloque h2 {
+    margin-top: 0;
+    color: #0071BC;
+}
+
+.zona-resultados {
+    min-height: 260px;
+    border: 2px dashed #b5b5b5;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.formulario-busqueda {
+    margin-bottom: 25px;
+}
+
+.formulario-busqueda label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.formulario-busqueda input {
+    padding: 8px;
+    width: 120px;
+    border: 2px solid #2C3E50;
+}
+
+.formulario-busqueda button {
+    padding: 9px 18px;
+    background-color: #0071BC;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.formulario-busqueda button:hover {
+    background-color: #005f9e;
+}
+
+.grupo-tabla {
+    margin-bottom: 30px;
+}
+
+.grupo-tabla h3 {
+    color: #0071BC;
+    margin-bottom: 10px;
+}
+
+.tabla-scroll {
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.tabla-datos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.tabla-datos th,
+.tabla-datos td {
+    border: 1px solid #b5b5b5;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.tabla-datos th {
+    background-color: #29B6F6;
+    color: white;
+}
+
+.mensaje-error {
+    color: darkred;
+    font-weight: bold;
+}
+
+.tarjeta-grafica {
+    background-color: white;
+    border: 1px solid #cfcfcf;
+    margin-bottom: 30px;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.tarjeta-grafica h3 {
+    color: #0071BC;
+    margin-top: 0;
+}
+
+.grafica-d3 {
+    min-width: 850px;
+}
+
+.eje text {
+    font-size: 12px;
+}
+
+.leyenda {
+    font-size: 13px;
+}
+
+.footer {
+    background-color: white;
+    border-top: 4px solid #29B6F6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.logos-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.logos-footer img {
+    max-height: 55px;
+    max-width: 150px;
+}
